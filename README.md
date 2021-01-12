@@ -2,6 +2,7 @@
 spring-boot-neo4j-sample
 
 Build app-service docker image:
+
   1.from project folder execute below command
   
     docker build --pull --rm -f "Dockerfile" -t tempservice:latest "."
