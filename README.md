@@ -10,3 +10,7 @@ Build app-service docker image:
   2.navigate to docker folder and execute the below command to up both db and app services
   
     docker-compose -f "docker/docker-compose.yml" up -d --build 
+    
+Swagger url
+  
+  http://localhost:8080/swagger-ui/#
